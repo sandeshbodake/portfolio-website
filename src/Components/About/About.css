@@ -68,6 +68,14 @@
   padding: 2rem;
   text-align: justify;
 }
+.desc div {
+  margin-left: 22px;
+  display: inline-block;
+}
+.desc .sub-sub-title{
+  text-align: center;
+  margin: 20px 10px;
+}
 
 @media only screen and (max-width: 1149px) {
   #about article {

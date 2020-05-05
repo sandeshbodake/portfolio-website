@@ -9,11 +9,8 @@ const Header = props => {
       <div className="moon" />
       <div className="container">
         <h1>
-          <span className="line">I do</span>
-          <span className="line">graphic design</span>
-          <span className="line">
-            <span className="color">&</span> code.
-          </span>
+          <span className="line">I am</span>
+          <span className="line">Software Developeer</span>
         </h1>
         <div className="buttons">
           <a href="#projects">my portfolio</a>

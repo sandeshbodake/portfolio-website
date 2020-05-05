@@ -3,6 +3,11 @@ import SocialLinks from '../SocialLinks';
 import './Contact.css';
 
 const Contact = props => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(e)
+  }
+
   return (
     <section id="contact">
       <div className="container">
@@ -14,20 +19,15 @@ const Contact = props => {
             </p>
             <p className="separator" />
             <p className="subtitle">
-              Please, use the form below or send an email to {''}
-              <span className="mail">
-                web
-                <i className="fas fa-at at" />
-                yagoestevez
-                <i className="fas fa-circle dot" />
-                com
-              </span>
-              :
+              Please, use the form below or send an email
             </p>
           </div>
           <SocialLinks />
         </div>
-        <form id="contact-form" action="#">
+        <form id="contact-form" 
+          action="#"
+          onSubmit={handleSubmit}
+        >
           <input placeholder="Name" name="name" type="text" required />
           <input placeholder="Email" name="email" type="email" required />
           <textarea placeholder="Message" type="text" name="message" />
