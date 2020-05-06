@@ -6,8 +6,9 @@
   background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(../../Images/Author_BG.jpg) center right no-repeat;
+  /* background: #fafafa url(../../Images/Author_BG.jpg) center right no-repeat; */
   background-attachment: fixed;
+  background-color: #fafafa;
 }
 
 #about .wrapper {

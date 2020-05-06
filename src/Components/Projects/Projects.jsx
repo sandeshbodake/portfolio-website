@@ -20,8 +20,8 @@ const Projects = props => {
             title="Cron Parser."
             img={MsgBoardImg}
             tech="js css react"
-            link="https://github.com/sandeshbodake/cron"
-            repo=""
+            link="https://cronparser.herokuapp.com/"
+            repo="https://github.com/sandeshbodake/cron"
           >
             <small>
               Build Using ReactJs

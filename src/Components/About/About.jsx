@@ -47,7 +47,6 @@ const About = props => {
             <div><i class="icon-reactjs"> React Js</i></div>
             <div><i class="icon-javascript"> JavaScript</i></div>
             <div><i class="icon-c"> C Language</i></div>
-            <div><i class="icon-java"> Kotlin</i></div>
 
             <h4 className="sub-sub-title">Databases</h4>
             <div><i class="icon-postgres">Postgres</i> </div>

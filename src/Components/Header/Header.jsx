@@ -10,7 +10,7 @@ const Header = props => {
       <div className="container">
         <h1>
           <span className="line">I am</span>
-          <span className="line">Software Developeer</span>
+          <span className="line">Software Developer</span>
         </h1>
         <div className="buttons">
           <a href="#projects">my portfolio</a>
