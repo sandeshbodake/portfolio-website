@@ -12,7 +12,7 @@ const Projects = props => {
           <p className="separator" />
           <p className="subtitle">
             Here's a list of <u>most</u> of the projects I've been working from last 2 years. Most of the projects are private but more 
-            open souce projects <u>coming soon</u>
+            open source projects <u>coming soon</u>
           </p>
         </div>
         <div className="projects-wrapper">

@@ -49,7 +49,7 @@ const About = props => {
             <div><i class="icon-c"> C Language</i></div>
 
             <h4 className="sub-sub-title">Databases</h4>
-            <div><i class="icon-postgres">Postgres</i> </div>
+            <div><i class="icon-postgres">PostgreSql</i> </div>
             <div><i class="icon-mysql">MySQL</i> </div>
             <div><i class="icon-mongodb">Mongodb</i> </div>
 
@@ -58,6 +58,7 @@ const About = props => {
             <div><i class="icon-docker">Docker</i> </div>
             <div><i class="icon-heroku">Heroku</i> </div>
             <div><i class="icon-aws">AWS</i> </div>
+
           </div>
         </article>
       </div>

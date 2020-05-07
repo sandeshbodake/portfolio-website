@@ -72,6 +72,8 @@
 .desc div {
   margin-left: 22px;
   display: inline-block;
+  line-height: 52px;
+  padding: 10px;
 }
 .desc .sub-sub-title{
   text-align: center;
