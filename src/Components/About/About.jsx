@@ -2,6 +2,22 @@ import React from 'react';
 import './About.css';
 
 const About = props => {
+
+  const mediumLink = () => {
+    return(
+      <a
+        id="profile-link"
+        href="https://medium.com/@sandeshbodake121"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Link to author's Medium Profile"
+      >
+        {' '}
+      <i className="fab fa-medium" />
+    </a>
+    )
+  }
+
   return (
     <section id="about">
       <div className="wrapper">
@@ -27,38 +43,23 @@ const About = props => {
           <div className="desc">
             <h4 className="subtitle">I'm a programmer.</h4>
             <p>
-              For the back-end i usually work with Ruby on rails which is Ruby framework, including popular frameworks like ReactJS.
-              Hands on Postgres and mySql like relational databases. also on mongoDB which is non relational
+              For the backend I usually work with Ruby on Rails which is a Ruby framework, including popular framework like ReactJS. 
+              Hands on Postgres and MySql like relational databases and also on MongoDB which is non relational database.
             </p>
             <p>
-              For the front-end I usually work with Javascript, either standalone or including
-              popular frameworks like ReactJS. I also make the web pretty by using
-              CSS using any of their friends: Bootstrap, Material Design, etc.
+              For the front-end I usually work with Javascript, either standalone or including popular frameworks like ReactJS. 
+              I also make the web pretty by using CSS using any of their friends: Bootstrap, Material Design, etc.
             </p>
           </div>
           <div className="desc">
-            <h4 className="subtitle">Technology Stack.</h4>
-
-            <h4 className="sub-sub-title">Languages/frameworks</h4>
-            
-            <div><i class="icon-ruby">Ruby</i> </div>
-            <div><i class="icon-ruby-on-rails">Ruby on Rails</i></div>
-            <div><i class="icon-php"> PHP</i></div>
-            <div><i class="icon-reactjs"> React Js</i></div>
-            <div><i class="icon-javascript"> JavaScript</i></div>
-            <div><i class="icon-c"> C Language</i></div>
-
-            <h4 className="sub-sub-title">Databases</h4>
-            <div><i class="icon-postgres">PostgreSql</i> </div>
-            <div><i class="icon-mysql">MySQL</i> </div>
-            <div><i class="icon-mongodb">Mongodb</i> </div>
-
-            <h4 className="sub-sub-title">Tools</h4>
-            <div><i class="icon-git">Git</i> </div>
-            <div><i class="icon-docker">Docker</i> </div>
-            <div><i class="icon-heroku">Heroku</i> </div>
-            <div><i class="icon-aws">AWS</i> </div>
-
+            <h4 className="subtitle">My Hobbies.</h4>
+            <p>
+              I Like writting technical blogs, you can view my blogs through medium {mediumLink}. creating cool websites,
+              you can ping me anytime if you have any idea.
+            </p>
+            <p>
+              I also like watching movies and big fan of Game Of thrones, Harry Potter and so on my list is big :). I Love playing Cricket, Football and chess. 
+            </p>
           </div>
         </article>
       </div>

@@ -2,6 +2,14 @@ import React from 'react';
 import Project from './Project';
 import './Projects.css';
 import MsgBoardImg from './Images/CronParser.jpg';
+import BtwApp from './Images/BTW.png';
+
+// import RailsImg from './Images/rails.svg'
+// import Ruby from './Images/ruby.svg'
+// import ReactI from './Images/react.svg'
+// import Js from './Images/javascript.svg'
+// import Redux from './Images/redux.svg'
+// import Kotlin from './Images/kotlin.svg'
 
 const Projects = props => {
   return (
@@ -28,6 +36,22 @@ const Projects = props => {
             </small>
             <p>
               This App will translate AWS Cloudwatch, Unix and Google Cloudwatch cron expression into human readable form.
+            </p>
+          </Project>
+
+          <Project
+            title="BTW CRM."
+            img={BtwApp}
+            tech="js css react ruby"
+            link="#"
+            repo="#"
+          >
+            <small>
+              Build Using Ruby, Ruby on Rails, JavaScript, PostgreSql
+            </small>
+            <p>
+              This app keep a track enquiries coming from Customer. Basically It's CRM (Customer Relational Model) i worked on it 
+              almost 1 year and  we solve many problems.
             </p>
           </Project>
          </div>

@@ -30,12 +30,12 @@ const Project = props => {
         </div>
         {props.children}
         <div className="buttons">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
+          { repo !== "#" && <a href={repo} target="_blank" rel="noopener noreferrer">
             View source <i className="fas fa-external-link-alt" />
-          </a>
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          </a>}
+          { link !== "#" && <a href={link} target="_blank" rel="noopener noreferrer">
             Try it Live <i className="fas fa-external-link-alt" />
-          </a>
+          </a>}
         </div>
       </div>
     </div>
