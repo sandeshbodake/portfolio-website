@@ -1,6 +1,8 @@
 import React from 'react';
 import './Header.css';
 
+const myResumeLike = "https://drive.google.com/file/d/1YpOgGNo-Cvwbed_MsMVFJz5LDZX_gJyV/view"
+
 const Header = props => {
   return (
     <header id="welcome-section">
@@ -13,7 +15,7 @@ const Header = props => {
           <span className="line">Software Developer</span>
         </h1>
         <div className="buttons">
-          <a href="#projects">my portfolio</a>
+          <a href={myResumeLike} target="_blanck">my resume</a>
           <a href="#contact" className="cta">
             get in touch
           </a>
