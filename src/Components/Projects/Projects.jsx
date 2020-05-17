@@ -3,6 +3,7 @@ import Project from './Project';
 import './Projects.css';
 import MsgBoardImg from './Images/CronParser.jpg';
 import BtwApp from './Images/BTW.png';
+import ShoppingCart from './Images/ShoppingCart.jpg'
 
 // import RailsImg from './Images/rails.svg'
 // import Ruby from './Images/ruby.svg'
@@ -36,6 +37,21 @@ const Projects = props => {
             </small>
             <p>
               This App will translate AWS Cloudwatch, Unix and Google Cloudwatch cron expression into human readable form.
+            </p>
+          </Project>
+          
+          <Project
+            title="Shopping Cart Application"
+            img={ShoppingCart}
+            tech=""
+            link="https://shopping-cart-app-rails.herokuapp.com/"
+            repo="https://github.com/sandeshbodake/shopping-cart-application"
+          >
+            <small>
+              Build Using Ruby on Rails
+            </small>
+            <p>
+              This Application is just for fun. you can login with fake email and checkout its functionalities.
             </p>
           </Project>
 
