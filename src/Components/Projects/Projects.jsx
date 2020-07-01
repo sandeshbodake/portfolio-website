@@ -33,7 +33,7 @@ const Projects = props => {
             repo="https://github.com/sandeshbodake/cron"
           >
             <small>
-              Build Using ReactJs
+              Build Using ReactJs, HTML, CSS
             </small>
             <p>
               This App will translate AWS Cloudwatch, Unix and Google Cloudwatch cron expression into human readable form.
