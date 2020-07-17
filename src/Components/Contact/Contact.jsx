@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SocialLinks from '../SocialLinks';
 import './Contact.css';
 
 const Contact = props => {
+
+  const [status, setFormStatus] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e)
+    const elements = e.target.elements
+    const templateId = 'portfolio';
+    sendFeedback(templateId, {
+      message_html: elements.message.value,
+      from_name: elements.name.value,
+      reply_to: elements.email.value
+    })
+    e.target.reset()
   }
+
+  const sendFeedback = (templateId, variables) => {
+    window.emailjs.send(
+      'gmail', templateId,
+      variables
+      ).then(res => {
+        setFormStatus(true)
+      })
+      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    }
 
   return (
     <section id="contact">
@@ -33,6 +53,7 @@ const Contact = props => {
           <textarea placeholder="Message" type="text" name="message" />
           <input className="button" id="submit" value="Submit" type="submit" />
         </form>
+        { status && <p className="thanks-message"> Thanks I will reach out to you soon ;) </p> }
       </div>
     </section>
   );

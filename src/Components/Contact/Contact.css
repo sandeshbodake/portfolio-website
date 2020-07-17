@@ -101,6 +101,13 @@ input[type="submit"]:focus {
   color: #fafafa;
 }
 
+.thanks-message {
+  font-size: 1.4rem;
+  margin-top: 5rem;
+  color: #f300b4;
+  font-weight: bold;
+}
+
 /** Email to avoid spam **/
 .mail {
   display: inline-block;
